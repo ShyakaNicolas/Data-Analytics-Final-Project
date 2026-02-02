@@ -1,0 +1,61 @@
+ANALYTICS INTEGRATION REPORT
+===============================
+Generated: 2026-01-28 15:19:56
+
+OVERVIEW:
+This report demonstrates the integration of MongoDB, HBase, and Spark
+for comprehensive e-commerce analytics.
+
+INTEGRATED QUERIES EXECUTED:
+
+1. CUSTOMER LIFETIME VALUE (CLV) ESTIMATION
+-------------------------------------------
+Sources: MongoDB (transactions) + HBase (sessions) + Spark (analytics)
+Purpose: Predict long-term customer value
+Method: CLV = (Avg Purchase x Frequency x Lifespan) + Engagement Score
+Business Value: Customer segmentation, marketing budget allocation
+
+2. PRODUCT AFFINITY & RECOMMENDATIONS
+-------------------------------------
+Sources: MongoDB (purchases) + HBase (browsing) + Spark (ML)
+Purpose: Personalized product recommendations
+Method: Collaborative filtering + Association rule mining
+Business Value: Increased sales through cross-selling
+
+3. FUNNEL CONVERSION ANALYSIS
+-----------------------------
+Sources: HBase (session flow) + MongoDB (transactions)
+Purpose: Identify conversion bottlenecks
+Method: Track user journey through purchase stages
+Business Value: Website optimization, reduced cart abandonment
+
+TECHNOLOGY INTEGRATION STRATEGY:
+- MongoDB: Primary store for transactional data
+- HBase: Real-time session and event tracking
+- Spark: Distributed processing and machine learning
+- Python: Integration layer and visualization
+
+DATA FLOW:
+1. Real-time: User sessions -> HBase
+2. Batch Processing: Daily transactions -> MongoDB
+3. Analytics: Spark processes both sources
+4. Insights: Integrated dashboards and reports
+
+BUSINESS INSIGHTS:
+- High-value customers identified for loyalty programs
+- Product associations discovered for bundling strategies
+- Conversion bottlenecks pinpointed for UX improvements
+- Seasonal trends identified for inventory planning
+
+SCALABILITY CONSIDERATIONS:
+- MongoDB: Sharding for transaction volume
+- HBase: Region servers for session data
+- Spark: Cluster scaling for processing needs
+- All components support horizontal scaling
+
+CONCLUSION:
+The multi-model approach successfully combines the strengths of:
+- MongoDB's document flexibility for business data
+- HBase's time-series efficiency for user behavior
+- Spark's distributed processing for analytics
+This provides a robust, scalable analytics platform for e-commerce.

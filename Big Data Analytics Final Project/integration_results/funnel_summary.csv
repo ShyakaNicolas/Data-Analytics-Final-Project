@@ -1,0 +1,5 @@
+funnel_stage,conversion_rate,avg_time_minutes,improvement_priority
+Product View,1.0,2.5,Low
+Add to Cart,0.35,5.2,High
+Checkout Start,0.51,8.7,Medium
+Purchase Complete,0.67,12.3,N/A

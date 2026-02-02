@@ -1,0 +1,4 @@
+clv_tier,customer_count,avg_clv,revenue_share
+High (>$500),42,785.5,35%
+Medium ($200-$500),173,345.25,45%
+Low (<$200),245,159.98,20%

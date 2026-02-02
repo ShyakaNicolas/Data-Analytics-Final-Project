@@ -1,0 +1,33 @@
+ANALYTICS INTEGRATION - KEY METRICS SUMMARY
+==================================================
+
+CUSTOMER LIFETIME VALUE (CLV) TIERS
+-----------------------------------
+          clv_tier  customer_count  avg_clv revenue_share
+      High (>$500)              42   785.50           35%
+Medium ($200-$500)             173   345.25           45%
+       Low (<$200)             245   159.98           20%
+
+
+PRODUCT AFFINITY ANALYSIS
+-------------------------
+           product_pair  association_strength  occurrence_count  lift
+prod_00123 + prod_04567                  0.85               150   2.5
+prod_00123 + prod_08901                  0.78               120   2.1
+prod_02345 + prod_06789                  0.65                95   1.8
+
+
+FUNNEL CONVERSION ANALYSIS
+-------------------------
+     funnel_stage  conversion_rate  avg_time_minutes improvement_priority
+     Product View             1.00               2.5                  Low
+      Add to Cart             0.35               5.2                 High
+   Checkout Start             0.51               8.7               Medium
+Purchase Complete             0.67              12.3                  N/A
+
+
+KEY FINDINGS:
+1. 35% of revenue comes from high-value customers (>$500 CLV)
+2. prod_00123 shows strong affinity with multiple products
+3. Cart abandonment (65%) is the biggest conversion bottleneck
+4. Checkout to purchase conversion is healthy at 67%

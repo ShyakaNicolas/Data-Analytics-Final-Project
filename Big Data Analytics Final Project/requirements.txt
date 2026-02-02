@@ -1,0 +1,13 @@
+faker>=24.0.0
+pandas>=2.2.3
+pymongo>=4.16.0
+happybase>=1.2.0
+jupyter>=1.1.0
+notebook>=7.0.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+numpy>=1.26.4
+scipy>=1.14.0
+scikit-learn>=1.5.0
+python-dateutil>=2.8.2
+requests>=2.32.0

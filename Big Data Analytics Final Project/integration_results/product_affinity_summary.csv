@@ -1,0 +1,4 @@
+product_pair,association_strength,occurrence_count,lift
+prod_00123 + prod_04567,0.85,150,2.5
+prod_00123 + prod_08901,0.78,120,2.1
+prod_02345 + prod_06789,0.65,95,1.8
